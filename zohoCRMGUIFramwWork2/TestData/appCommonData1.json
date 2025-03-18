@@ -1,0 +1,7 @@
+{
+   "browser" : "firefox",
+   "url" : "http://192.168.186.128:8080/crm/ShowHomePage.do",
+   "username" : "rashmi@dell.com",
+   "password" : "123456",
+   "timeout" : "20"
+}

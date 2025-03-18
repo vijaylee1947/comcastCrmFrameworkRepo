@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[click on campaigns link]]>
+    </line>
+    <line>
+      <![CDATA[click on NewCampaignButton]]>
+    </line>
+    <line>
+      <![CDATA[click on contacts module]]>
+    </line>
+    <line>
+      <![CDATA[click on New contacts button]]>
+    </line>
+    <line>
+      <![CDATA[Enter last name into last name text field]]>
+    </line>
+    <line>
+      <![CDATA[click on save button]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-03-18T07:33:54Z" name="Suite" finished-at="2025-03-18T07:34:19Z" duration-ms="25493">
+    <groups>
+      <group name="regression">
+        <method signature="CreateCampaign.createcampaignTest()[pri:0, instance:com.zoho.CRM.CampaignsModule.CreateCampaign@7d900ecf]" name="createcampaignTest" class="com.zoho.CRM.CampaignsModule.CreateCampaign"/>
+        <method signature="CreateCampaign.createcampaignwithtypeTest()[pri:0, instance:com.zoho.CRM.CampaignsModule.CreateCampaign@7d900ecf]" name="createcampaignwithtypeTest" class="com.zoho.CRM.CampaignsModule.CreateCampaign"/>
+        <method signature="CreateContact.createcontactTest()[pri:0, instance:com.zoho.CRM.ContactsModule.CreateContact@3feb2dda]" name="createcontactTest" class="com.zoho.CRM.ContactsModule.CreateContact"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreateCampaign.createcampaignTest()[pri:0, instance:com.zoho.CRM.CampaignsModule.CreateCampaign@7d900ecf]" name="createcampaignTest" class="com.zoho.CRM.CampaignsModule.CreateCampaign"/>
+        <method signature="CreateCampaign.createcampaignwithtypeTest()[pri:0, instance:com.zoho.CRM.CampaignsModule.CreateCampaign@7d900ecf]" name="createcampaignwithtypeTest" class="com.zoho.CRM.CampaignsModule.CreateCampaign"/>
+        <method signature="CreateContact.createcontactTest()[pri:0, instance:com.zoho.CRM.ContactsModule.CreateContact@3feb2dda]" name="createcontactTest" class="com.zoho.CRM.ContactsModule.CreateContact"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-03-18T07:33:54Z" name="Test-2" finished-at="2025-03-18T07:34:19Z" duration-ms="25493">
+      <class name="com.zoho.CRM.ContactsModule.CreateContact">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.zoho.CRM.ContactsModule.CreateContact@3feb2dda]" started-at="2025-03-18T07:33:53Z" name="configBS" finished-at="2025-03-18T07:33:54Z" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.zoho.CRM.ContactsModule.CreateContact@3feb2dda]" started-at="2025-03-18T07:33:54Z" name="configBC" finished-at="2025-03-18T07:34:07Z" duration-ms="13058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.zoho.CRM.ContactsModule.CreateContact@3feb2dda]" started-at="2025-03-18T07:34:07Z" name="configBM" finished-at="2025-03-18T07:34:10Z" duration-ms="3289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createcontactTest()[pri:0, instance:com.zoho.CRM.ContactsModule.CreateContact@3feb2dda]" started-at="2025-03-18T07:34:10Z" name="createcontactTest" finished-at="2025-03-18T07:34:17Z" duration-ms="6647" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[click on contacts module]]>
+            </line>
+            <line>
+              <![CDATA[click on New contacts button]]>
+            </line>
+            <line>
+              <![CDATA[Enter last name into last name text field]]>
+            </line>
+            <line>
+              <![CDATA[click on save button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createcontactTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.zoho.CRM.ContactsModule.CreateContact@3feb2dda]" started-at="2025-03-18T07:34:17Z" name="configAM" finished-at="2025-03-18T07:34:17Z" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.zoho.CRM.ContactsModule.CreateContact@3feb2dda]" started-at="2025-03-18T07:34:17Z" name="configAC" finished-at="2025-03-18T07:34:19Z" duration-ms="1986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.zoho.CRM.ContactsModule.CreateContact@3feb2dda]" started-at="2025-03-18T07:34:19Z" name="configAS" finished-at="2025-03-18T07:34:19Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.zoho.CRM.ContactsModule.CreateContact -->
+    </test> <!-- Test-2 -->
+  </suite> <!-- Suite -->
+</testng-results>

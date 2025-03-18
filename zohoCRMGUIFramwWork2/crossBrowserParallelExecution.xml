@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+<listeners>
+	<listener class-name="com.zoho.CRM.generic.ListenerUtility.ListenerImplementation"></listener>
+</listeners>
+  <test thread-count="2" parallel="tests" name="Test-1">
+  <parameter name="Browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.zoho.CRM.CampaignsModule.CreateCampaign"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="2" parallel="tests" name="Test-2">
+  <parameter name="Browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.zoho.CRM.ContactsModule.CreateContact"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
