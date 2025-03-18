@@ -11,7 +11,7 @@ import com.zoho.CRM.generic.ObjectRepository.CreateContactPage;
 import com.zoho.CRM.generic.ObjectRepository.HomePage;
 import com.zoho.CRM.generic.webDriverUtility.JavaUtility;
 
-public class CreateContact extends BaseTest{
+public class CreateContactTest extends BaseTest{
 	
 		ExcelUtility eLib=new ExcelUtility();
 		PropertyFileUtility pLib=new PropertyFileUtility();

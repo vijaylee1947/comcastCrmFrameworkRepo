@@ -20,7 +20,7 @@ import com.zoho.CRM.generic.ObjectRepository.HomePage;
 import com.zoho.CRM.generic.webDriverUtility.JavaUtility;
 
 @Listeners(com.zoho.CRM.generic.ListenerUtility.ListenerImplementation.class)
-public class CreateCampaign extends BaseTest  {
+public class CreateCampaignTest extends BaseTest  {
 	
 		ExcelUtility eLib=new ExcelUtility();
 		JavaUtility jLib=new JavaUtility();

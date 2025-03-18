@@ -9,7 +9,7 @@ import com.zoho.CRM.generic.ObjectRepository.CreateCampaignPage;
 import com.zoho.CRM.generic.ObjectRepository.HomePage;
 import com.zoho.CRM.generic.webDriverUtility.JavaUtility;
 
-public class CreateCampaignWithReqDate extends BaseTest {
+public class CreateCampaignWithReqDateTest extends BaseTest {
 
 	ExcelUtility eLib = new ExcelUtility();
 	JavaUtility jLib = new JavaUtility();
